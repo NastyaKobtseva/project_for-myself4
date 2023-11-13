@@ -255,6 +255,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 10px;
 }
 
 .figma-button:hover, .sketch-button:hover, 
@@ -272,7 +273,8 @@ body {
 }
 
 .button-after-card-two {
-  padding-left: 560px;
+  display: flex;
+  justify-content: center;
 }
 
 .button-after-card {
@@ -332,13 +334,19 @@ body {
     height: 294px; 
     padding-top: 20px;
     padding-left: 20px;
+    flex-shrink: 0;
 }
 
 .photo-figma-text:hover, .photo-sketch-text:hover, 
 .photo-vs-code-text:hover, .photo-notion-text:hover, 
 .photo-slack-text:hover, .photo-invision-text:hover {
-  background-color: #283036;
-  border-radius: 10px;
+  background: rgba(40, 48, 54, 0.6);
+  border-radius: 15px;
+  border: 2px solid #363e45;
+  backdrop-filter: blur(25px);
+  background-image: url('./image/Ellipse\ 194.svg');
+  background-repeat: no-repeat;
+  background-position: top 0px right 0px;
 }
 
 .card-one-nice {
@@ -365,14 +373,21 @@ body {
 }
 
 .spacing-before-text-h1 {
-  padding-left: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .firms-content {
-  background-color: #283036;
-    border-radius: 10px;
     height: 253px;
     width: 1223px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #363e45;
+    background: rgba(40, 48, 54, 0.6);
+    backdrop-filter: blur(25px);
+    background-image: url('./image/Ellipse\ 196.svg');
+    background-repeat: no-repeat;
+    background-position: top 0px left 0px;
 }
 
 .firms-content-two {
@@ -389,12 +404,19 @@ body {
   transition: background-color 0.3s;
   padding-top: 30px;
   padding-left: 30px;
+  flex-shrink: 0;
 }
 
 .all-toolbox:hover, .all-procreate:hover, 
 .all-phpstorm:hover, .all-zeplin:hover {
   background-color: #283036;
-  border-radius: 10px;
+  border-radius: 15px;
+  border: 2px solid #363e45;
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+  background-image: url('./image/Ellipse\ 195.svg');
+  background-repeat: no-repeat;
+    background-position: top 0px right 0px;
 }
 
 .photo-zeplin-text, .photo-phpstorm-text, 
@@ -464,19 +486,9 @@ body {
   background-color: transparent;
 }
 
-.all-zeplin-phpstorm {
-  display: flex;
-}
-
-.all-toolbox-procreate {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 100px;
-}
-
 .content-city-all {
   display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -492,9 +504,25 @@ body {
   color: #FF6E30;
 }
 
+.ronaldo2-city-text {
+  position: relative;
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
+.ronaldo-2 {
+  padding-right: 205px;
+}
+
 .city-text {
-  padding-left: 61px;
+  padding-left: 40px;
   color: rgb(222, 217, 217);
+  position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    white-space: pre;
+    padding-top: 80px;
 }
 
 .arrow-two {
@@ -523,8 +551,12 @@ body {
   padding-left: 10px;
 }
 
+.spacing-before-text-wow {
+  display: flex;
+  justify-content: center;
+}
+
 .text-input {
-  padding-left: 500px;
     padding-top: 250px;
     padding-bottom: 240px;
 }
