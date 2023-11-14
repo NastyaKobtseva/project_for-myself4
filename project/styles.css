@@ -455,6 +455,10 @@ body {
     padding-top: 220px;
 }
 
+.all-zeplin-toolbox-phpstorm-procreate {
+  display: flex;
+}
+
 .all-h1 {
   font-size: 48px;
   font-family: 'Medium';
